@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Even or Odd Game</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Even or Odd Game</h2>
+    <h2 class="title">Even or Odd Game!</h2>
 
     <section>
-        <input id="input-number" type="number">
-        <button id="on-click" onclick="isEven()" class="button">Click Here</button>
+        <input class="input-box" id="input-number" type="number">
+        <p>
+        <button class="button" id="on-click" onclick="isEven()">Click to Reveal!</button>
+        </p>
+        <p>
+        <button class="button-2" id="on-click-2" onClick="window.location.reload()">Click to Play Again!</button>
+        </p>
     </section>
     
     <section>
