@@ -1,3 +1,5 @@
 .hidden {
     visibility: hidden;
+    width: 20%;
+    height: 20%;
 }
